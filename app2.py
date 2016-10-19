@@ -22,8 +22,8 @@ EXAMPLE_COMMAND = "do"
 # instantiate Slack & Twilio clients
 # TODO fix virtualenvironment, i.e. the three lines below
 # slack_client = SlackClient(os.environ.get('SLACK_BOT_TOKEN'))
-ACTIVE_BOT_TOKEN = 'xoxb-86272033047-P809NbOySBItlmMak0AnJH8S'
-PLEDGE_BOT_TOKEN = 'xoxb-86224871300-TEUkVCyTiGOmYA8yU6Q08AJp'
+ACTIVE_BOT_TOKEN = '?????'
+PLEDGE_BOT_TOKEN = '?????'
 active_bot = SlackClient(ACTIVE_BOT_TOKEN)
 pledge_bot = SlackClient(PLEDGE_BOT_TOKEN)
 
